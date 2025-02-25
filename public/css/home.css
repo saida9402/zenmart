@@ -31,6 +31,7 @@
 
 .navbar_top > a img {
   margin-right: 76px;
+  width: 117px;
   height: 36px;
 }
 
@@ -101,7 +102,7 @@
   height: 50px;
 
   display: flex;
-  flex-direction: center;
+  flex-direction: row;
   align-items: center;
 
   background: #f5c34b;
@@ -110,12 +111,12 @@
 
 .search_icon_box img {
   margin-left: 14px;
-  width: 20px;
-  height: 20px;
+  width: 22px;
+  height: 22px;
 }
 
 .navbar_top .nav_top_menu {
-  margin-left: 50px;
+  margin-left: 59px;
   width: 416px;
   height: 50px;
 
@@ -128,7 +129,6 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 10px;
   cursor: pointer;
 }
 
@@ -143,6 +143,7 @@
   align-items: center;
 
   border: 1px solid rgb(255, 255, 255, 0.4);
+  border-radius: 20%;
 }
 
 .box_icon_box img {
@@ -177,8 +178,8 @@
   position: absolute;
   width: 15px;
   height: 15px;
-  top: -2px;
-  right: -3px;
+  top: 5px;
+  right: 6px;
 
   display: flex;
   align-items: center;
@@ -199,7 +200,7 @@
 .navbar_bott {
   margin-top: 20px;
   width: 100%;
-  height: 50px;
+  height: 40px;
 
   display: flex;
   flex-direction: row;
@@ -213,14 +214,13 @@
   height: auto;
 
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
 }
 .navbar_bott_menu_box .browse_box {
   width: 185px;
   height: 30px;
-  white-space: nowrap;
 
   display: flex;
   flex-direction: row;
@@ -239,12 +239,12 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 28px;
-  flex-direction: row;
 
   color: #ffffff;
 }
 
 .navbar_bott_menu_box .navbar_route_menu {
+  margin-top: 10px;
   margin-left: 12px;
   width: 690px;
   display: flex;
@@ -279,7 +279,6 @@
 
 .navbar_bott_menu_box .sorting menu {
   display: flex;
-  flex-wrap: nowrap;
   flex-direction: row;
 }
 
