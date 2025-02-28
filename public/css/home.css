@@ -39,6 +39,58 @@
   border-bottom: 2px solid #041e42;
 }
 
+/* PAGINATION */
+
+.container .pagination_box {
+  margin-top: 30px;
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.container .pagination_box .pagination_main {
+  width: auto;
+  height: 24px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.container .pagination_main img {
+  cursor: pointer;
+}
+
+.container .pagination_main .pagination_dot {
+  margin: 0 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.container .pagination_dot .dot {
+  width: 20px;
+  height: 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.container .pagination_dot .dot.active {
+  border: 2px solid #112137;
+}
+
+.container .pagination_dot .dot div {
+  width: 4px;
+  height: 4px;
+  background: #112137;
+  border-radius: 50%;
+}
+
 /* HEADER frame */
 .header_frame {
   position: relative;
@@ -507,52 +559,21 @@
   color: #626974;
 }
 
-.container .pagination_box {
-  margin-top: 30px;
+.home_page .adv_frame {
+  margin-top: 90px;
   width: 100%;
-  height: auto;
-
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-
-.container .pagination_box .pagination_main {
-  width: auto;
-  height: 24px;
-
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
-.container .pagination_main img {
-  cursor: pointer;
-}
-
-.container .pagination_main .pagination_dot {
-  margin: 0 20px;
-  display: flex;
-  flex-direction: row;
-}
-
-.container .pagination_dot .dot {
-  width: 20px;
-  height: 20px;
+  height: 120px;
 
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 50%;
-}
 
-.container .pagination_dot .dot.active {
-  border: 2px solid #112137;
-}
+  background-color: #e5edff;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
 
-.container .pagination_dot .dot div {
-  width: 4px;
-  height: 4px;
-  background: #112137;
-  border-radius: 50%;
+  color: #0053f6;
 }
