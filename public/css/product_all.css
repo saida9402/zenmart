@@ -6,15 +6,6 @@
   background-color: #041e42;
 }
 
-/* .container .top_products_top {
-  width: 1319px;
-  height: 40px;
-
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-} */
-
 .container .top_products_top div {
   display: flex;
   flex-direction: row;
@@ -177,7 +168,7 @@
 
 .shop_page {
   width: 100%;
-  height: 1000%;
+  height: 100%;
 
   display: flex;
   flex-direction: column;
