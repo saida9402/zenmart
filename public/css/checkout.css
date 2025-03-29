@@ -35,7 +35,7 @@
 }
 
 .title_div span {
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 28px;
   font-weight: 400;
   line-height: 40px;
@@ -83,7 +83,7 @@
   width: 119.11px;
   height: 29px;
 
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 20px;
   font-weight: 400;
   line-height: 29px;
@@ -123,7 +123,7 @@
 
 .checkout_page .double_input_box .double_input input::placeholder {
   padding: 10px;
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 15px;
   font-weight: 400;
   line-height: 22px;
@@ -136,7 +136,7 @@
   width: 112px;
   height: 28px;
 
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 16px;
   font-weight: 400;
   line-height: 28px;
@@ -154,7 +154,7 @@
 }
 
 .checkout_page .top_form_box label {
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 16px;
   font-weight: 400;
   line-height: 28px;
@@ -186,7 +186,7 @@
 }
 
 .checkout_page .top_form_box .input_box label {
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 16px;
   font-weight: 400;
   line-height: 28px;
@@ -203,7 +203,7 @@
 }
 
 .checkout_page .bott_shipping_box span {
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 20px;
   font-weight: 400;
   line-height: 29px;
@@ -221,7 +221,7 @@
 }
 
 .checkout_page .bott_shipping_box .order_notes_box label {
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 16px;
   font-weight: 400;
   line-height: 28px;
@@ -247,7 +247,7 @@
   width: 808px;
   height: 28px;
   color: rgb(4, 30, 66);
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 15px;
   font-weight: 400;
   line-height: 28px;
@@ -280,7 +280,7 @@
   height: 29px;
 
   color: rgb(4, 30, 66);
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 20px;
   font-weight: 400;
   line-height: 29px;
@@ -296,18 +296,13 @@
 
   display: flex;
   flex-direction: column;
-  gap: 20px;
-}
-
-checkout_page .order_info .product_info div {
-  margin-bottom: 20px;
 }
 
 .checkout_page .order_info .product_info span {
   margin-right: 10px;
   margin-bottom: 20px;
   color: rgb(4, 30, 66);
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 15px;
   font-weight: 400;
   line-height: 22px;
@@ -321,17 +316,10 @@ checkout_page .order_info .product_info div {
   justify-content: space-between;
 }
 
-.checkout_page .order_info .total_price div {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-}
-
 .checkout_page .order_info .total_price span {
   height: 45px;
   color: rgb(0, 2, 6);
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 16px;
   font-weight: 400;
   line-height: 35px;
@@ -357,7 +345,7 @@ checkout_page .order_info .product_info div {
   height: 66px;
 
   color: rgb(4, 30, 66);
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 15px;
   font-weight: 400;
   line-height: 22px;
@@ -399,7 +387,7 @@ checkout_page .order_info .product_info div {
   align-items: center;
 
   color: rgb(4, 30, 66);
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 15px;
   font-weight: 400;
   line-height: 22px;
