@@ -293,6 +293,7 @@
   margin-bottom: 20px;
   width: auto;
   height: auto;
+  gap: 10px;
 
   display: flex;
   flex-direction: column;
