@@ -15,7 +15,7 @@
 }
 
 .container .upd_btn button {
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 15px;
   font-weight: 400;
   line-height: 22px;
@@ -86,7 +86,7 @@
 }
 
 .mypage_page .profile_settings .profile_info .name_mail span {
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 16px;
   font-weight: 400;
   line-height: 28px;
@@ -94,7 +94,7 @@
 }
 
 .mypage_page .profile_settings .profile_info .name_mail p {
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 15px;
   font-weight: 400;
   line-height: 22px;
@@ -126,7 +126,7 @@
 }
 
 .mypage_page .profile_settings .setting_main .setting_box span {
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 15px;
   font-weight: 400;
   line-height: 45px;
@@ -143,7 +143,7 @@
 }
 
 .mypage_page .profile_details .page_title {
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 28px;
   font-weight: 400;
   line-height: 40px;
@@ -166,7 +166,7 @@
 }
 
 .mypage_page .details_box .setting_router span {
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 16px;
   font-weight: 400;
   line-height: 28px;
@@ -207,7 +207,7 @@
 }
 
 .mypage_page .double_input_box .double_input label {
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 16px;
   font-weight: 400;
   line-height: 28px;
@@ -256,7 +256,7 @@
 }
 
 .mypage_page .pass_box .pass_change_box .input_box label {
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 16px;
   font-weight: 400;
   line-height: 28px;
@@ -276,7 +276,7 @@
 }
 
 .mypage_page .input_box input::placeholder {
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 15px;
   font-weight: 400;
   line-height: 22px;
@@ -319,7 +319,7 @@
 }
 
 .mypage_page .contact_permissions .contact_box span {
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 16px;
   font-weight: 400;
   line-height: 28px;

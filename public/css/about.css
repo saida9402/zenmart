@@ -129,7 +129,7 @@
 
 .about_page .top_cont h1 {
   margin: 20px 0px;
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 28px;
   font-weight: 400;
   line-height: 40px;
@@ -138,7 +138,7 @@
 
 .about_page .top_cont span {
   margin: 20px 0px;
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 20px;
   font-weight: 400;
   line-height: 35px;
@@ -146,7 +146,7 @@
 }
 
 .about_page .top_cont p {
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 16px;
   font-weight: 400;
   line-height: 28px;
@@ -163,7 +163,7 @@
 
 .about_page .bott_cont span {
   /* margin: 20px 0px; ishlamadi */
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 20px;
   font-weight: 400;
   line-height: 29px;
@@ -173,7 +173,7 @@
 .about_page .bott_cont p {
   margin-top: 15px;
   margin-bottom: 35px;
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 16px;
   font-weight: 400;
   line-height: 28px;
@@ -193,7 +193,7 @@
 
 .about_page .about_content .statistics_section span {
   margin-top: 30px;
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 28px;
   font-weight: 400;
   line-height: 40px;
@@ -220,7 +220,7 @@
 }
 
 .about_page .conent_main .statistics_section span {
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 28px;
   font-weight: 400;
   line-height: 40px;
@@ -229,7 +229,7 @@
 }
 
 .about_page .statistics_section .stat_item span {
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 50px;
   font-weight: 400;
   line-height: 72px;
@@ -238,7 +238,7 @@
 }
 
 .about_page .statistics_section .stat_item p {
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 16px;
   font-weight: 400;
   line-height: 28px;
@@ -258,7 +258,7 @@
 
 .about_page .about_content .team_box span {
   margin: 30px 0px;
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 28px;
   font-weight: 400;
   line-height: 40px;
@@ -278,7 +278,7 @@
 .about_page .team_info_box .team_info {
   width: 250px;
   height: 403px;
-
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -287,6 +287,50 @@
 .about_page .team_info_box .team_info img {
   width: 250px;
   height: 330px;
+
+  background-size: 100%;
+  background-repeat: no-repeat;
+  object-fit: contain;
+}
+/* cssda background-image  */
+
+.about_page .team_info_box .team_info .image {
+  width: 250px;
+  height: 330px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  letter-spacing: 5px;
+  font-size: 3rem;
+  background-position: center;
+  background-size: cover;
+  background-image: linear-gradient(
+      45deg,
+      transparent,
+      rgba(255, 166, 0, 0.9),
+      rgb(161, 161, 235)
+    ),
+    url(../images/images/icons/profile.jpg);
+}
+
+.about_page .image .icons {
+  position: absolute;
+
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+  gap: 5px;
+}
+.about_page .image .icons i {
+  font-size: 20px;
+  color: rgb(255, 254, 254);
 }
 
 .about_page .team_info_box .team_info div {
@@ -295,7 +339,7 @@
 }
 
 .about_page .team_info_box .team_info span {
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 18px;
   font-weight: 400;
   line-height: 26px;
@@ -303,7 +347,7 @@
 }
 
 .about_page .team_info_box .team_info p {
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 15px;
   font-weight: 400;
   line-height: 22px;
@@ -323,7 +367,7 @@
 .about_page .support_main span {
   margin-top: 30px;
   margin-bottom: 20px;
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 28px;
   font-weight: 400;
   line-height: 40px;
@@ -365,7 +409,7 @@
 }
 
 .about_page .support_box .support_1 span {
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 18px;
   font-weight: 400;
   line-height: 26px;
@@ -373,7 +417,7 @@
 }
 
 .about_page .support_box .support_1 p {
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 15px;
   font-weight: 400;
   line-height: 22px;
