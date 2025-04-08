@@ -1,0 +1,448 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container hr {
+  border: none;
+  border-top: 1px solid #eaeaea;
+  margin: 10px 0;
+}
+
+.map_image {
+  width: 100%;
+  height: 500px;
+  background-image: url(../images/images/category/5.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.contact_page {
+  margin: auto;
+  width: 1320px;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact_page .container {
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contact_page .container .contact_main {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact_page .contact_main .get_in_box {
+  padding: 30px 0;
+  width: auto;
+  height: 598px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.contact_page .contact_main .get_in_box .contact_boxes {
+  margin-top: 10px;
+  width: 545px;
+  height: 405.57px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact_page .contact_boxes .text {
+  width: 545px;
+  height: 156px;
+}
+
+.contact_page .contact_boxes span {
+  font-family: var(--font);
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 40px;
+  color: rgb(4, 30, 66);
+}
+
+.contact_page .contact_boxes p {
+  margin-top: 20px;
+  width: 545px;
+  height: 56px;
+  font-family: var(--font);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+
+  color: rgb(4, 30, 66);
+}
+
+.contact_page .contact_boxes .contact_box {
+  margin: 10px 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.contact_page .contact_boxes .contact_box img {
+  margin-right: 20px;
+  width: 33.07px;
+  height: 27.18px;
+}
+
+.contact_page .contact_boxes .contact_box div {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact_page .contact_boxes .contact_box strong {
+  font-family: var(--font);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  color: rgb(4, 30, 66);
+}
+
+.contact_page .contact_boxes .contact_box span {
+  font-family: var(--font);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+  color: rgb(4, 30, 66);
+}
+.contact_page .contact_boxes .media_box {
+  width: 150px;
+  height: 51.57px;
+}
+
+.contact_page .contact_boxes .media_box span {
+  font-family: var(--font);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  color: rgb(4, 30, 66);
+}
+
+.contact_page .contact_boxes .media_box i {
+  margin-top: 15px;
+  margin-right: 16px;
+}
+
+.contact_page .contact_main .get_in_box .form {
+  margin-top: 10px;
+  width: auto;
+  height: auto;
+  gap: 20px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.contact_page .form .double_input {
+  width: 648.21px;
+  height: 88px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.contact_page .form .double_input .input_box {
+  margin-bottom: 30px;
+  width: 310px;
+  height: 88px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.contact_page .form .double_input .input_box input {
+  padding: 20px;
+  width: 310px;
+  height: 55px;
+
+  box-sizing: border-box;
+  border: 1px solid rgb(4, 30, 66);
+  border-radius: 6px;
+
+  box-shadow: 0px 10px 20px 0px rgba(81, 84, 88, 0.05);
+  background: rgb(255, 255, 255);
+}
+
+.contact_page .form .double_input .input_box label {
+  font-family: var(--font);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  color: rgb(4, 30, 66);
+}
+
+.contact_page .form .input_box {
+  width: 647px;
+  height: 88px;
+  gap: 10px;
+
+  display: flex;
+  flex-direction: column;
+}
+.contact_page .form .input_box label {
+  font-family: var(--font);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  color: rgb(4, 30, 66);
+}
+
+.contact_page .form .input_box input {
+  padding: 20px;
+  width: 647px;
+  height: 55px;
+
+  box-sizing: border-box;
+  border: 1px solid rgb(234, 234, 234);
+  border-radius: 6px;
+
+  background: rgb(255, 255, 255);
+}
+.contact_page .form .form_group {
+  width: 647px;
+  height: 295px;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact_page .form .form_group label {
+  font-family: var(--font);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  color: rgb(4, 30, 66);
+}
+
+.contact_page .form .form_group textarea {
+  padding: 20px;
+  width: 647px;
+  height: 261.43px;
+
+  box-sizing: border-box;
+  border: 1px solid rgb(234, 234, 234);
+  border-radius: 6px;
+
+  background: rgb(255, 255, 255);
+}
+
+.contact_page .form .form_group textarea::placeholder {
+  font-family: var(--font);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 28px;
+  color: rgb(4, 30, 66);
+}
+
+.contact_page .form button {
+  margin-bottom: 20px;
+  width: 168.64px;
+  height: 52px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 15px 35px 15px 35px;
+
+  box-sizing: border-box;
+  border: 1px solid rgb(245, 195, 75);
+  border-radius: 6px;
+  box-shadow: 0px 5px 20px 0px rgba(245, 195, 75, 0.15);
+  background: rgb(245, 195, 75);
+
+  color: rgb(4, 30, 66);
+  font-family: var(--font);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.contact_page .container .contact_main .filial_address_box {
+  width: 1320px;
+  height: 491px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  border-top: 10px;
+}
+
+.contact_page .filial_address_box .head {
+  margin-top: 20px;
+  width: 440.98px;
+  height: 156px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact_page .head strong {
+  font-family: var(--font);
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 40px;
+  color: rgb(4, 30, 66);
+}
+
+.contact_page .head p {
+  font-family: var(--font);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  color: rgb(4, 30, 66);
+}
+
+.contact_page .filial_address_box .filial_address {
+  width: 701px;
+  height: 430px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact_page .filial_address .top_box {
+  width: auto;
+  height: 185px;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.contact_page .filial_address .top_box .box_1 {
+  margin-left: 30px;
+  width: 301.87px;
+  height: 185px;
+}
+
+.contact_page .filial_address .bott_box {
+  width: auto;
+  height: 185px;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.contact_page .filial_address .bott_box .box_1 {
+  margin-left: 30px;
+  width: 301.87px;
+  height: 185px;
+}
+
+.contact_page .filial_address span {
+  font-family: var(--font);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  color: rgb(4, 30, 66);
+}
+
+.contact_page .filial_address p {
+  font-family: var(--font);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  color: rgb(4, 30, 66);
+}
+
+.contact_page .filial_address a {
+  font-family: var(--font);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+  color: rgb(24, 55, 99);
+
+  border-bottom: 1px solid rgb(61, 60, 60);
+}
+
+.contact_page .container .ask_questions {
+  width: 1320px;
+  height: 658px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact_page .ask_questions .questions_list {
+  margin-top: 30px;
+  padding: 10px;
+  width: 1083.6px;
+  height: 497px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.contact_page .questions_list .questions_box {
+  padding: 10px;
+  width: auto;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  /* align-items: center; */
+}
+
+.contact_page .questions_box .question {
+  gap: 20px;
+  width: auto;
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.contact_page .questions_box .question .question_c {
+  width: 1020px;
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.contact_page .questions_box p {
+  font-family: var(--font);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  color: rgb(4, 30, 66);
+}
+
+.contact_page .ask_questions strong {
+  font-family: var(--font);
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 40px;
+  color: rgb(4, 30, 66);
+}
+
+.contact_page .question_c span {
+  font-family: var(--font);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 29px;
+  color: rgb(4, 30, 66);
+}
